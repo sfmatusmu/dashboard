@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+  <div class="card">
+    <div class="card-header">
+     <h3 class="card-title">Panel general de métricas</h3>
+
+    </div>
+    <div class="card-body">
+      <p>Este es el panel de control. Aquí puedes monitorear el rendimiento de diferentes áreas de tu empresa.</p>
+      <!-- Ejemplo de métricas rápidas -->
+      <div class="row">
+        <div class="col-lg-3 col-6">
+          <div class="small-box bg-info">
+            <div class="inner">
+              <h3>82%</h3>
+              <p>Ventas este mes</p>
+            </div>
+            <div class="icon">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="small-box bg-success">
+            <div class="inner">
+              <h3>64%</h3>
+              <p>Productividad</p>
+            </div>
+            <div class="icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
